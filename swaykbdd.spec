@@ -7,6 +7,7 @@ License:	MIT
 URL:		https://github.com/swaywm/swaylock
 Source0:	https://github.com/artemsen/swaykbdd/archive/v%{version}.tar.gz
 BuildRequires:  meson >= 0.48.0
+BuildRequires:	pkgconfig(json-c)
 
 %description
 Swaykbdd: per-window keyboard layout for Sway
